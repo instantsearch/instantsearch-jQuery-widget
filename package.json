@@ -1,0 +1,24 @@
+{
+  "name": "instantsearch-jQuery-widget",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "instantsearch.js custom jQuery widget",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start --server --files '*.js, *.html' --no-open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/instantsearch/instantsearch-jQuery-widget.git"
+  },
+  "keywords": [],
+  "author": "Algolia <support@algolia.com> (https://github.com/algolia/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/instantsearch/instantsearch-jQuery-widget/issues"
+  },
+  "homepage": "https://github.com/instantsearch/instantsearch-jQuery-widget#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.0"
+  }
+}
