@@ -2,7 +2,7 @@
   "name": "instantsearch-jQuery-widget",
   "version": "1.0.0",
   "private": "true",
-  "description": "instantsearch.js custom jQuery widget",
+  "description": "instantsearch.js widget using jQuery",
   "main": "index.js",
   "scripts": {
     "dev": "browser-sync start --server --files '*.js, *.html' --no-open"

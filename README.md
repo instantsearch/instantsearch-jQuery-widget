@@ -1,4 +1,4 @@
-# instantsearch.js custom jQuery widget
+# instantsearch.js widget using jQuery
 
 [demo]: ./demo.gif
 
