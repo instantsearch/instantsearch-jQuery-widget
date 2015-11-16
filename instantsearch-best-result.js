@@ -1,16 +1,23 @@
-// we add ourselves to the instantsearch.widgets namespace
+// instantsearch.js custom widget with jQuery
+// First, we add ourselves to the instantsearch.widgets namespace
 instantsearch.widgets.bestResult = function bestResult($container) {
-  // this is the custom widget interface you need to implement,
-  // only render OR init are mandatory, it all depends on your usecase and
-  // if you need to setup some default Algolia's searchParameters
-  // see more details in our documentation:
+  // See more details in our documentation:
   // https://community.algolia.com/instantsearch.js/documentation/#custom-widgets
+  //
+  // You can use any jQuery plugin you want.
+  //
+  // This is the custom widget interface (just an object). You need to implement
+  // at least render OR init.
   return {
     getConfiguration: function(/*currentSearchParams*/) {
-      // we only want one hit
+      // Here we only want one hit in the results, so we configure `hitsPerPage`.
+      //
       // This parameter is one of Algolia's REST API: https://www.algolia.com/doc/rest#pagination-parameters
+      //
       // See all the parameters here: https://www.algolia.com/doc/rest
-      // or in the helper documentation: http://algolia.github.io/algoliasearch-helper-js/docs/SearchParameters.html
+      //
+      // In the end, the underlying JS object being configured is the JavaScript helper of Algolia.
+      // See http://algolia.github.io/algoliasearch-helper-js/docs/SearchParameters.html
       return {
         hitsPerPage: 1
       }
@@ -19,7 +26,7 @@ instantsearch.widgets.bestResult = function bestResult($container) {
       // params.state
       // params.helper
       //
-      // Nothing to do here, only present for exhaustivity
+      // Nothing to do here, only present for documentation
     },
     render: function(params) {
       // params.results
@@ -28,6 +35,7 @@ instantsearch.widgets.bestResult = function bestResult($container) {
 
       var results = params.results;
       if (results.hits.length === 0) {
+        // Of course you could also use any jQuery plugin you want, like an image gallery
         $container.html('No results');
       } else {
         $container.html(
