@@ -35,7 +35,6 @@ instantsearch.widgets.bestResult = function bestResult($container) {
 
       var results = params.results;
       if (results.hits.length === 0) {
-        // Of course you could also use any jQuery plugin you want, like an image gallery
         $container.html('No results');
       } else {
         $container.html(
