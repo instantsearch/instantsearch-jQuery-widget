@@ -2,10 +2,9 @@
 
 [demo]: ./demo.gif
 
+**Read** the widget code: [instantsearch-best-result.js](./instantsearch-best-result.js).
 
 ![Demo of the widget][demo]
-
-See the widget code: [instantsearch-best-result.js](./instantsearch-best-result.js).
 
 Read more on how to create custom widget on
 the [instantsearch.js documentation](https://community.algolia.com/instantsearch.js/documentation/#custom-widgets).
