@@ -2,7 +2,7 @@
 
 [demo]: ./demo.gif
 
-**Read** the widget code: [instantsearch-best-result.js](./instantsearch-best-result.js).
+**Read** the code: [instantsearch-best-result.js](./instantsearch-best-result.js).
 
 ![Demo of the widget][demo]
 
