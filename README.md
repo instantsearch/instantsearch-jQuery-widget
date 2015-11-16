@@ -1,16 +1,19 @@
 # instantsearch.js custom jQuery widget
 
-See the widget code: [instantsearch-best-result.js](./instantsearch-best-result.js).
+[demo]: ./demo.gif
 
-See the usage:
-- [html page](./index.html)
-- [js code](./app.js)
+
+![Demo of the widget][demo]
+
+See the widget code: [instantsearch-best-result.js](./instantsearch-best-result.js).
 
 Read more on how to create custom widget on
 the [instantsearch.js documentation](https://community.algolia.com/instantsearch.js/documentation/#custom-widgets).
 
+We also have a more complex example using jQuery: [instantsearch-ion.rangeSlider](https://github.com/instantsearch/instantsearch-ion.rangeSlider).
+
 To run the example you can:
-- clone this repository
-- run `npm run dev` in the cloned repository
-- open http://localhost:3000
+  + clone this repository
+  + run `npm run dev` in the cloned repository
+  + open http://localhost:3000
 

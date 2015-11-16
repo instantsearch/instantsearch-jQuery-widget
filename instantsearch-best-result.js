@@ -30,7 +30,10 @@ instantsearch.widgets.bestResult = function bestResult($container) {
       if (results.hits.length === 0) {
         $container.html('No results');
       } else {
-        $container.html('Name: ' + results.hits[0].name + ' <br/>Price: ' + results.hits[0].price);
+        $container.html(
+          'Name: ' + results.hits[0].name + '<br/>' +
+          'Price: ' + results.hits[0].price + '<br/>' +
+          'Image: <img src="' + results.hits[0].image + '" />');
       }
     }
   }
