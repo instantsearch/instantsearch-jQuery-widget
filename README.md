@@ -2,7 +2,11 @@
 
 [demo]: ./demo.gif
 
+## Code
+
 **Read** the code: [instantsearch-best-result.js](./instantsearch-best-result.js).
+
+## Demo
 
 **See** the demo:
 ![Demo of the widget][demo]
