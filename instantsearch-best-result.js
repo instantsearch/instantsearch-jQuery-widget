@@ -17,7 +17,7 @@ instantsearch.widgets.bestResult = function bestResult($container) {
       // See all the parameters here: https://www.algolia.com/doc/rest
       //
       // In the end, the underlying JS object being configured is the JavaScript helper of Algolia.
-      // See http://algolia.github.io/algoliasearch-helper-js/docs/SearchParameters.html
+      // See https://community.algolia.com/algoliasearch-helper-js/docs/SearchParameters.html
       return {
         hitsPerPage: 1
       }
